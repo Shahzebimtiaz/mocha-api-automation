@@ -10,11 +10,17 @@ for further on Mocha, take a look at "https://mochajs.org/"
 This project is build with node version 6.13.4 and mocha version 8.4.0
 
 To start from scratch use following:
+
 npm init
+
 npm install --save-dev mocha
+
 npm install chai --save-dev
+
 npm install should --save-dev
+
 npm install request --save-dev
+
 npm install supertest--save-dev
 
 # Framework Organization
@@ -47,10 +53,16 @@ npm install supertest--save-dev
 # Fucntional Tests
 
 To run functional tests
+
 go to directory test and use following command
+
 npm test
+
 or
+
 mocha test
+
 or 
+
 mocha .\test\getRequests.js
 
