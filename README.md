@@ -25,33 +25,15 @@ npm install supertest--save-dev
 
 # Framework Organization
 
-lib => constants.js (Base url of API's)
-lib => dataModel.js (Data for testing purpose in json fromat)
-lib => utils.js     (This file contains all the base fucntions for Get, Post, Put and Delete)
+# lib directory
+This directory contains Base url of API's in constant.js, Data for testing purpose in json fromat in datamodel.js and all the base fucntions for Get, Post, Put and Delete in utils.js.
 
+# helper directory
+This file conatins different helpers for get, post, put and delete methods. File with api_endpoints.js contains end point for api's and xyz_validator contains validation for Json response.
 
+# test directory
+This directory contains all the executable clases for fucntional testing.
 
-
-
-├── helper
-│   ├── getRequest
-|         |------  api_endpoints.js           - This file contains all the valid/invalid endpoints for get api's
-|         |------  getRequest_validator.js    - This is validator to validate json response of get api's  
-|   ├── postRequest
-|         |------  api_endpoints.js           - This file contains all the valid/invalid endpoints for post api's
-|         |------  postRequest_validator.js    - This is validator to validate json response of post api's
-|   ├── putRequest
-|         |------  api_endpoints.js           - This file contains all the valid/invalid endpoints for put api's
-|         |------  putRequest_validator.js    - This is validator to validate json response of put api's
-|   ├── deleteRequest
-|         |------  api_endpoints.js           - This file contains all the valid/invalid endpoints for delete api's
-|         |------  deleteRequest_validator.js    - This is validator to validate json response of delete api's
-|
-├── test
-│   ├── getRequests.js         - Executable class (calling of all the functions for get api is done here)
-│   └── postRequests.js        - Executable class (calling of all the functions for post api is done here)
-│   └── putRequests.js         - Executable class (calling of all the functions for put api is done here)
-│   └── deleteRequest.js       - Executable class (calling of all the functions for delete api is done here)
 
 
 # Fucntional Tests
