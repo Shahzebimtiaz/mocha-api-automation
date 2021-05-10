@@ -24,12 +24,13 @@ npm install request --save-dev
 npm install supertest--save-dev
 
 # Framework Organization
-
-├── README.md
-├── lib
+lib
 │   ├── constants.js         - Base url of API's
 │   └── dataModel.js         - Data for testing purpose in json fromat
 |   └── utils.js             - This file contains all the base fucntions for Get, Post, Put and Delete
+
+├── README.md
+├── 
 |
 ├── helper
 │   ├── getRequest
