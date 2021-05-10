@@ -43,8 +43,8 @@ To run functional tests
 go to directory test and use following command
 
 npm test
-
+or
 mocha test
- 
+or
 mocha .\test\getRequests.js
 
