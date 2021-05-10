@@ -1,0 +1,18 @@
+{
+  "name": "restapis",
+  "version": "1.0.0",
+  "description": "This is a sample project for automation of Rest Api's using mocha with chai",
+  "main": "getRequest.js",
+  "scripts": {
+    "test": "mocha test/getRequest.js test/postRequest.js test/putRequest.js test/deleteRequest.js --timeout 10000" 
+  },
+  "author": "Shahzeb Imtiaz",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "request": "^2.88.2",
+    "should": "^13.2.3",
+    "supertest": "^6.1.3"
+  }
+}
