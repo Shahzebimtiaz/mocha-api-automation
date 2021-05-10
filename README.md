@@ -17,7 +17,8 @@ npm install should --save-dev
 npm install request --save-dev
 npm install supertest--save-dev
 
-#Framework Organization
+# Framework Organization
+
 ├── README.md
 ├── lib
 │   ├── constants.js         - Base url of API's
@@ -43,7 +44,8 @@ npm install supertest--save-dev
 │   └── deleteRequest.js       - Executable class (calling of all the functions for delete api is done here)
 
 
-#Fucntional Tests
+# Fucntional Tests
+
 To run functional tests
 go to directory test and use following command
 npm test
