@@ -30,6 +30,7 @@ npm install supertest--save-dev
 │   ├── constants.js         - Base url of API's
 │   └── dataModel.js         - Data for testing purpose in json fromat
 |   └── utils.js             - This file contains all the base fucntions for Get, Post, Put and Delete
+|
 ├── helper
 │   ├── getRequest
 |         |------  api_endpoints.js           - This file contains all the valid/invalid endpoints for get api's
@@ -43,6 +44,7 @@ npm install supertest--save-dev
 |   ├── deleteRequest
 |         |------  api_endpoints.js           - This file contains all the valid/invalid endpoints for delete api's
 |         |------  deleteRequest_validator.js    - This is validator to validate json response of delete api's
+|
 ├── test
 │   ├── getRequests.js         - Executable class (calling of all the functions for get api is done here)
 │   └── postRequests.js        - Executable class (calling of all the functions for post api is done here)
